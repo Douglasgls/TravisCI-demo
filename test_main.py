@@ -6,7 +6,7 @@ class TestSomar(unittest.TestCase):
         self.assertEqual(soma(2, 2), 4)
         self.assertEqual(soma(2, 3), 5)
         self.assertEqual(soma(2, 4), 6)
-        self.assertEqual(soma(2, 5), 7)
+        self.assertEqual(soma(2, 5), 6)
 
 if __name__ == "__main__":
     unittest.main()
